@@ -1,0 +1,12 @@
+
+def missing_number(arr, n):
+    x=1
+    for y in arr:
+        if x!=y:
+            return x
+            break
+        else:
+            x+=1
+  
+
+print(missing_number([1,2,3,4,6],6))
