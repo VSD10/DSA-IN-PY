@@ -1,0 +1,7 @@
+def max_product(arr):
+    a=max(arr)
+    arr.remove(a)
+    b=max(arr)
+    return a*b
+arr=[1, 7, 3, 4, 9, 5] 
+print(max_product(arr))
