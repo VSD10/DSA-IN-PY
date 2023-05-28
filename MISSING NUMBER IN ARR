@@ -1,4 +1,4 @@
-
+#ONE OF THE METHOD
 def missing_number(arr, n):
     x=1
     for y in arr:
@@ -10,3 +10,12 @@ def missing_number(arr, n):
   
 
 print(missing_number([1,2,3,4,6],6))
+
+
+
+
+#SECOND METHOD
+def missing_number(arr, n):
+    sum0=(n*n+1)/2
+    sum1=sum(arr)
+    return(sum0-sum1)           #5
